@@ -1,0 +1,19 @@
+.bottom-navbar-selection-container {
+  padding: 15px 0;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+}
+
+.bottom-navbar-selection {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.bottom-navbar-selection-container:hover {
+  font-weight: 800;
+  cursor: pointer;
+  padding: 13px 0;
+  border-bottom: 3px var(--dark-red) solid;
+}
