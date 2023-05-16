@@ -19,7 +19,7 @@
   right: 0;
   top: 2rem;
   height: 7rem;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  border-bottom: 3px solid var(--gold);
   display: flex;
   justify-content: center;
 }

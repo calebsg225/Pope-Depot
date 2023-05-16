@@ -6,8 +6,8 @@ import SearchInterface from '../components/SearchInterface/SearchInterface';
 
 
 const Navbar = () => {
-  const bottomNavbarSelections = ['Church Finder', 'Pope Decor & Furniture', 'DIY Projects', 'Specials & Offers', 'Gift Cards', 'Track Order', 'Help'];
-  const bottomNavbarLinkPaths = ['church-finder', 'pope-decor', 'diy-projects', 'specials-and-offers', 'gift-cards', 'track-order', 'help'];
+  const bottomNavbarSelections = ['All Popewear', 'Headwear', 'Outerwear', 'Footwear', 'Accessories', 'Church Finder', 'Gift Cards', 'Track Order', 'Help'];
+  const bottomNavbarLinkPaths = ['all-popewear', 'headwear', 'outerwear', 'footwear', 'accessories', 'church-finder', 'gift-cards', 'track-order', 'help'];
   return (
     <>
       <div className='top-bar'>

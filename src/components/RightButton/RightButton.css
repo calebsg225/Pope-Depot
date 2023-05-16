@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.right-button:hover {
+  opacity: .5;
+}
+
 .right-button-label {
   color: var(--text-color);
 }
