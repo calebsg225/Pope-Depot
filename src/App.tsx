@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./pages/Navigation";
 import HomePage from "./pages/HomePage";
+import PageNotFound from "./pages/PageNotFount";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path='/' element={ <HomePage /> }/>
+          <Route path='*' element={ <PageNotFound /> }/>
         </Routes>
       </HashRouter>
     </>
