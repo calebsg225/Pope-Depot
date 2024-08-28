@@ -3,6 +3,7 @@ type ProductData = {
   title: string,
   description: string,
   price: number,
+  stock: number,
   imageSource: string
 }
 

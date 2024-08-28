@@ -7,14 +7,19 @@ interface ProductCardProps {
 const ProductCard = ({ productData }: ProductCardProps) => {
   return (
     <li className="product-card">
-      <div>
+      <div className="product-image-container">
         <img src={productData.imageSource} alt={productData.title} />
       </div>
-      <div>
-        <h2>{productData.title}</h2>
-        <h3>{productData.description}</h3>
-        <h4>{productData.price}</h4>
-        <button>add to card</button>
+      <div className="product-info-container">
+          <h2>{productData.title}</h2>
+          <h4>{productData.description}</h4>
+        <div>
+          <div>
+            <h3>${productData.price.toFixed(2)}</h3>
+            <h5>{productData.stock} in stock</h5>
+          </div>
+          <button>Add To Cart</button>
+        </div>
       </div>
     </li>
   );
