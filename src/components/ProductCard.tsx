@@ -1,14 +1,17 @@
 import { ProductData } from "../data/products/productTypes";
+import getImage from "../assets/assets";
 
 interface ProductCardProps {
   productData: ProductData
 }
 
 const ProductCard = ({ productData }: ProductCardProps) => {
+  // fetch appropriate image
+  const image = getImage(productData.imageTitle);
   return (
     <li className="product-card">
       <div className="product-image-container">
-        <img src={productData.imageSource} alt={productData.title} />
+        <img src={image.src} alt={productData.title} />
       </div>
       <div className="product-info-container">
           <h2>{productData.title}</h2>

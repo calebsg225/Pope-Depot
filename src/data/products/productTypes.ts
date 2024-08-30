@@ -4,7 +4,7 @@ type ProductData = {
   description: string,
   price: number,
   stock: number,
-  imageSource: string
+  imageTitle: string
 }
 
 type ProductsData = {
