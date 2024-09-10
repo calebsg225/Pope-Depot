@@ -1,8 +1,14 @@
 import { useState } from "react";
+
 import { productCategories } from "../data/products/productData";
 
+//import ProductCard from "./ProductCard";
+
 const ProductDisplay = () => {
+  
   const [activeProductTab, setActiveProductTab] = useState('all');
+
+
 
   return (
     <main className="product-display-component">
@@ -12,7 +18,9 @@ const ProductDisplay = () => {
         )}
       </section>
       <section className="product-display-main">
-        
+        <ul>
+          {/* TODO: Create Display System For Active Tabs */}
+        </ul>
       </section>
       <section className="product-display-footer"></section>
     </main>

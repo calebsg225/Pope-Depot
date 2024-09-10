@@ -1,4 +1,4 @@
-type CategoryType = ("accessories" | "headwear" | "footwear" | "outerwear");
+type CategoryType = "accessories" | "headwear" | "footwear" | "outerwear";
 
 type ProductData = {
   category: CategoryType,

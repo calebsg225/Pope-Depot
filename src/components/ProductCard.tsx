@@ -5,6 +5,8 @@ interface ProductCardProps {
   productData: ProductData
 }
 
+// TODO: cart function
+
 const ProductCard = ({ productData }: ProductCardProps) => {
   // fetch appropriate image
   const image = getImage(productData.imageTitle);
