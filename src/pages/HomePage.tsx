@@ -1,14 +1,11 @@
 // home depot home page
-import ProductCard from "../components/ProductCard";
-import productsData from "../data/products/productData";
+import ProductDisplay from "../components/ProductDisplay";
 
 const HomePage = () => {
   return (
     <>
       <p>home page here</p>
-      <ul>
-        {productsData["accessories"].map((v, i) => <ProductCard productData={v} key={i} />)}
-      </ul>
+      <ProductDisplay />
     </>
   );
 }

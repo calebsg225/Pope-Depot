@@ -1,5 +1,7 @@
+type CategoryType = ("accessories" | "headwear" | "footwear" | "outerwear");
+
 type ProductData = {
-  category: ("accessories" | "headwear" | "footwear" | "outerwear"),
+  category: CategoryType,
   title: string,
   description: string,
   price: number,
@@ -11,4 +13,4 @@ type ProductsData = {
   [key: string]: ProductData[]
 }
 
-export type { ProductsData, ProductData }
+export type { ProductsData, ProductData, CategoryType }

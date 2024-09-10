@@ -1,8 +1,9 @@
-import { ProductsData } from "./productTypes";
+import { ProductsData, CategoryType } from "./productTypes";
 
+const productCategories: CategoryType[] = [ 'headwear', 'outerwear', 'footwear', 'accessories' ];
 
 const productsData: ProductsData = {
-  "accessories" : [
+  'accessories' : [
     {
       category: "accessories",
       title: "Gold Crucifix",
@@ -14,4 +15,5 @@ const productsData: ProductsData = {
   ]
 }
 
+export { productCategories };
 export default productsData;
